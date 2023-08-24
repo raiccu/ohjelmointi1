@@ -17,5 +17,8 @@ public class Pikavippi {
         double lainanHinta = määrä * vuodet * korko / 100;
 
         System.out.println("Lainatut rahat maksavat eli korko " + lainanHinta);
+        pikavipinMäärä.close();
+        vuosienMäärä.close();
+        lainanKorko.close();
     }
 }

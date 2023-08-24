@@ -13,5 +13,6 @@ public class Bitcoin {
 
 
         System.out.print("Bitcoin tuotti vuodessa " + tuotto);
+        lukija.close();
     }
 }

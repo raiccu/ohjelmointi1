@@ -8,5 +8,6 @@ public class HeyFirstname {
         String etunimi = lukija.next();
 
         System.out.print("Hei " + etunimi + "!");
+        lukija.close();
     }
 }

@@ -9,6 +9,6 @@ public class Cooper {
         int kierrokset = matka / 400;
 
         System.out.println("Kokonaisia 400 metrin kierroksia oli " + kierrokset);
-
+        cooper.close();
     }
 }

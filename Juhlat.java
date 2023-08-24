@@ -17,5 +17,6 @@ public class Juhlat {
         System.out.println("Pulloja tarvitaan " + tarvittavatPullot + " kappaletta");
 
         System.out.println("Viimeisestä pullosta jää " + ylimääräiset + " lasia");
+        lukija.close();
     }
 }

@@ -22,6 +22,8 @@ public class Maalaus {
         DecimalFormat decimalFormat = new DecimalFormat("0.00");
 
         System.out.println("Maalin tarve on " + decimalFormat.format(laskutoimitus) + " litraa");
+        lukija.close();
+        litranmitta.close();
     }
 }
 

@@ -13,5 +13,7 @@ public class Puoluetuki {
         int puoluetukiLkm = kelkm * puoluetukieurot;
 
         System.out.println("Puoluetuen määrä on " + puoluetukiLkm + " euroa");
+
+        lukija.close();
     }
 } 
