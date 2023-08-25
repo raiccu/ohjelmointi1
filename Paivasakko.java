@@ -10,5 +10,7 @@ public class Paivasakko {
         int paivasakko = (nettotulo - 255) / 60;
 
         System.out.println("Nettotuloilla " + nettotulo + "päiväsakko on " + paivasakko + "euroa");
+
+        lukija.close();
     }
 }
