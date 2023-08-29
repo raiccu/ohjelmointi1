@@ -1,3 +1,4 @@
+package chapter1;
 import java.util.Scanner;
 public class LukujenSumma {
     public static void main(String[] args){
