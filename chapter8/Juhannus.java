@@ -10,8 +10,8 @@ public class Juhannus {
 
         System.out.println("Syötä vuosi: ");
         int vuosi = sc.nextInt();
-        
 
+        String juhannus = "Juhannus";
 
         sc.close();
     }
