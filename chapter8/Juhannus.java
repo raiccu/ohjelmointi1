@@ -13,6 +13,8 @@ public class Juhannus {
 
         String juhannus = "Juhannus";
 
+        
+
         sc.close();
     }
 }
