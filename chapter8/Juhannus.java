@@ -10,7 +10,11 @@ public class Juhannus {
 
         System.out.println("Syötä vuosi: ");
         int vuosi = sc.nextInt();
+
+        LocalDate kesäkuu = LocalDate.of(vuosi, 6, 1);
+
         
+
         sc.close();
     }
 }

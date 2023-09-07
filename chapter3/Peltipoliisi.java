@@ -6,6 +6,7 @@ public class Peltipoliisi {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         DecimalFormat df = new DecimalFormat("#.##");
+        
         System.out.println("Anna nopeutesi: ");
         int nopeus = sc.nextInt();
 
