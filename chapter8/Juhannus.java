@@ -1,8 +1,8 @@
 package chapter8;
 import java.util.Scanner;
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
 import java.time.DayOfWeek;
+import java.time.LocalDate;
+import java.time.Month;
 
 public class Juhannus {
     public static void main(String[] args) {
@@ -11,9 +11,17 @@ public class Juhannus {
         System.out.println("Syötä vuosi: ");
         int vuosi = sc.nextInt();
 
-        LocalDate kesäkuu = LocalDate.of(vuosi, 6, 1);
+        LocalDate start = LocalDate.of(vuosi, Month.JUNE, 20);
+        LocalDate end = LocalDate.of(vuosi, Month.JUNE, 26);
 
-        
+        DayOfWeek startDay = start.getDayOfWeek();
+        DayOfWeek endDay = end.getDayOfWeek();
+
+        DayOfWeek lauantai = DayOfWeek.SATURDAY;
+
+        while(startDay != lauantai){
+            
+        }
 
         sc.close();
     }
